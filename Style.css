@@ -1,0 +1,27 @@
+#salaprincipal {
+    background-image: url("texture/loja.jpg");
+    background-repeat: no-repeat;      /* Não repetir a imagem */
+    background-size:contain ;            /* Cobrir toda a tela */
+    background-position: center;       /* Centralizar a imagem */
+    margin: 0;                          /* Remover margens padrão */
+    height: 100vh;                      /* Garantir altura total da tela */
+}
+
+#entrada {
+    background-image: url("texture/cacaca1.jpg");
+    background-repeat: no-repeat;      /* Não repetir a imagem */
+    background-size:contain ;            /* Cobrir toda a tela */
+    background-position: center;       /* Centralizar a imagem */
+    margin: 0;                          /* Remover margens padrão */
+    height: 100vh;                      /* Garantir altura total da tela */
+}
+
+#botaoporta {
+    height: 60%;
+    width: 25%;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
